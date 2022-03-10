@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "type": "module",
   "scripts": {
@@ -13,3 +14,20 @@
     "mongoose": "^6.2.5"
   }
 }
+=======
+{
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.4.1",
+    "mongoose": "^6.2.5"
+  }
+}
+>>>>>>> c8e645eba8dee819f074be964de9a7516698f316
