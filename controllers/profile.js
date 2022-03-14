@@ -24,9 +24,9 @@ route.post("/",user_Auth,async (request,response)=>{
   const id= request.header("id");
   const token = request.header("token");
 
-  const {firstName,lastName,email,gender} = request.body;
+  const updatedFields = request.body;
 
-  const updated = await updating_user_details(id, token, firstName, lastName, email, gender);
+  const updated = await updating_user_details(id, token,updatedFields);
 
   if(updated){
       return response.status(200).send(updated);
